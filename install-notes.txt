@@ -1,0 +1,15 @@
+openshift notes - 
+
+how to debug oc login error 
+
+https://bugzilla.redhat.com/show_bug.cgi?id=1982229
+
+
+how to clear crts when you can't use oc remotely
+
+log into Control Plane as 'core'... you should have RSA id in /home/.rsa
+
+[root@ocp-cp-2 ~]# export KUBECONFIG=/etc/kubernetes/static-pod-resources/kube-apiserver-certs/secrets/node-kubeconfigs/lb-int.kubeconfig 
+[root@ocp-cp-2 ~]# oc get csr -o name | xargs oc adm certificate approve
+
+

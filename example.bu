@@ -1,0 +1,10 @@
+variant: fcos
+version: 1.3.0
+passwd:
+  users: 
+    - name: arne
+      groups: 
+        - wheel
+      password_hash: $y$j9T$K6jINyEHJZdoMEPVHwUnZ1$uOz7prC5..F68j5JPxNlh6KXJu6uD./w1CLOj2rJwU2
+      ssh_authorized_keys:
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDTstPAIPDbuPhQmWlZwH/nJwbfSUcv+phraQLmEAYNY8YQYznQ45H+l4ZyFNDwfrbrcO8ySioKOme8IF/DdbCRW2aT4Gy+vlWJEd4DqWcRo1lrk6yiPa/w8lPilKXPs4ce8fZ9VD5NmOpx2grABLV97j0mw1GiVfkXAvjz0fh3yrcKBNlEAI+oBlRlHlDc3nnt86j6dH19HARlv0lrjGhm1/UnhynoPAtMkaBxWsMS5CjS5ng9LWFVgwubsnslYWVSLv5zNvmZg556l9+Q5coOrTCPb/nDNAd4BQYOlWTlcXIPa/8ShRXcYcvXagBOid0eXObBLSYvLQoMpPR2DnM02Y6TWb1nsxs9tyT1JPpQVKi675/QtvhUX+Xh9XbCM/bNhJTy/xRQdTE5EmZskt5gz/ypY2poOYJyV3YqPmZ7Tt0a1ZOcfVZX8grOSmfbe3ca8Wp8Gnnav/VsDaA0unYxFwGBGaEeB4MfCEmVwIcaFF+GBAlrp8vPAZOs24rzKb8= arnep@fedora

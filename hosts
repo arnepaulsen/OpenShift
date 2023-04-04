@@ -1,0 +1,10 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+192.168.2.136 vmware
+# Open the hosts file
+sudo vi /etc/hosts
+
+# Append the following entries:
+192.168.2.177 *.apps.lab.okd.lan okd-svc api.lab.okd.lan console-openshift-console.apps.lab.okd.lan oauth-openshift.apps.lab.okd.lan downloads-openshift-console.apps.lab.okd.lan alertmanager-main-openshift-monitoring.apps.lab.okd.lan grafana-openshift-monitoring.apps.lab.okd.lan prometheus-k8s-openshift-monitoring.apps.lab.okd.lan thanos-querier-openshift-monitoring.apps.lab.okd.lan mysql-route-mysql-wp.apps.lab.okd.lan
+
+

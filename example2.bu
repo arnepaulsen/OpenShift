@@ -1,0 +1,9 @@
+variant: fcos
+version: 1.3.0
+passwd:
+  users: 
+    - name: arne
+      groups: 
+        - wheel
+      password_hash: $y$j9T$K6jINyEHJZdoMEPVHwUnZ1$uOz7prC5..F68j5JPxNlh6KXJu6uD./w1CLOj2rJwU2
+      ssh_authorized_keys:

@@ -1,0 +1,7 @@
+Careful - 
+
+the two files id_rsa & id_rsa.pub were used to generate the OpenShift ign files. 
+
+don't delete them or write over.
+
+They are needed to log into conrol and work nodes with the 'core' user id
